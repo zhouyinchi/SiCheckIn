@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     try{
                         OkHttpClient httpClient = new OkHttpClient();
                         FormBody formBody = new FormBody.Builder().add("loginid","zhouyc")
-                                .add("password","130016")
+                                .add("password","edityouself")
                                 .add("clienttype","WebClient")
                                 .add("clientver","6.5")
                                 .build();
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                         Bundle bu = new Bundle();
                         Message message =new Message();
                         message.what=0;
-                        bu.putString("return_url",response.);
+                        bu.putString("return_url",response.body().string());
                         message.setData(bu);
                         handler.sendMessage(message);
                     }
