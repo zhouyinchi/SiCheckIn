@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_picasso_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Picasso显示图片" />
+
+    <Button
+        android:id="@+id/btn_imageloader_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Universal-Imageloader展示图片" />
+
+    <Button
+        android:id="@+id/btn_fresco_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fresco显示一张基本的网络图片" />
+
+    <Button
+        android:id="@+id/btn_glide_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Glide展示图片" />
+    <Button
+        android:id="@+id/btn_fresco_two_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fresco简单封装，显示网络图片" />
+
+    <ImageView
+        android:id="@+id/iv_picasso_fresco_glide_imageloader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simple_image_view_one"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@mipmap/ic_launcher"
+        fresco:placeholderImage="@mipmap/ic_launcher" />
+
+</LinearLayout>

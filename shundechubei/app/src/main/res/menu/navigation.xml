@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_project"
+        android:icon="@drawable/ic_project_black_24dp"
+        android:title="@string/title_project" />
+    <item
+        android:id="@+id/navigation_finance"
+        android:icon="@drawable/ic_finance_chart_black_24dp"
+        android:title="@string/title_finance" />
+    <item
+        android:id="@+id/navigation_engineering"
+        android:icon="@drawable/ic_engineering_black_24dp"
+        android:title="@string/title_engineering" />
+    <item
+        android:id="@+id/navigation_personal"
+        android:icon="@drawable/ic_personal_black_24dp"
+        android:title="@string/title_personal" />
+
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tool.yczhou.sicheckin.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:background="@color/mDividerHigh"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/toolbar_bg"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/main_start_end_btn"
+                    style="@style/BtnCom"
+                    android:layout_width="@dimen/top_btn_width"
+                    android:layout_height="@dimen/top_btn_height"
+                    android:layout_marginLeft="@dimen/top_btn_margin"
+                    android:textSize="14sp"
+                    android:text="启动" />
+                <TextView
+                    android:layout_weight="1"
+                    android:text="打卡"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <Button
+                    style="@style/BtnCom"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="@dimen/top_btn_margin"
+                    android:padding="0dp"
+                    android:textSize="24sp"
+                    android:text="+" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/mDividerHigh"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+    <include
+        layout="@layout/item_task"/>
+    <include
+        layout="@layout/item_task"/>
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/main_recycle"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+</LinearLayout>

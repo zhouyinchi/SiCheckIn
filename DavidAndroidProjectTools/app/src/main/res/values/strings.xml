@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">安卓利器</string>
+    <!--这里填写我们在高德地图后台获取的API秘钥-->
+    <string name="amap_apikey">237e3794fbf4e9183c58abb600eecca87</string>
+    <!--这里填写umeng的key-->
+    <string name="umeng_key">75837dd045312dd1b6f00167f</string>
+
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="co_pull_to_refresh_footer_pull_label">上拉加载更多</string>
+
+
+
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">松开后刷新</string>
+    <string name="header_hint_refresh_loading">加载中&#8230;</string>
+    <string name="header_hint_refresh_time">更新时间：</string>
+    <!--<string name="footer_hint_load_normal"></string>-->
+    <!--<string name="footer_hint_load_ready"></string>-->
+    <string name="footer_hint_load_normal">查看更多</string>
+    <string name="footer_hint_load_ready">加载中...</string>
+    <string name="david_webview_refresh_success">刷新成功</string>
+    <string name="david_webview_refresh_fail">刷新失败</string>
+    <!-- 分享 -->
+    <string name="share">分享</string>
+    <string name="share_title">分享到</string>
+    <string name="moments">朋友圈</string>
+    <string name="wechat">微信好友</string>
+    <string name="weibo">新浪微博</string>
+    <string name="qq">QQ</string>
+    <string name="qzone">QQ空间</string>
+
+    <!-- button -->
+    <string name="horizontal_single">横向单行</string>
+    <string name="horizontal_multi">横向多行</string>
+    <string name="vertical">竖向</string>
+    <string name="grid">网格</string>
+
+    <!-- item -->
+    <string name="delete">删除</string>
+    <string name="add_item">添加</string>
+    <string name="source_on_github">Github位置</string>
+    <string name="title_item">功能</string>
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+    <string name="confirm">确定</string>
+    <string name="cancel_">取消</string>
+</resources>

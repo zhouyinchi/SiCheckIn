@@ -1,0 +1,5 @@
+chapter2
+
+INP:inter-process communication 跨进程通信
+ANR：application not responding 应用无响应
+Parcelable Serializable 两种序列化的方式，前者使用麻烦但效率高，后者适合序列化到存储设备或网络传输，开销大，大量I/O操作

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MySSM:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="MySSM.war">
+      <element id="artifact" artifact-name="MySSM:war exploded" />
+    </root>
+  </artifact>
+</component>

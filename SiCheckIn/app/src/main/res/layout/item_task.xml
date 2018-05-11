@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:background="@color/mDividerHigh"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    <FrameLayout
+        android:layout_weight="1"
+        android:background="@color/fullTransparent"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/checkin_type"
+            android:text="重复打卡"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/checkin_time"
+            android:text="8:10AM"
+            android:textColor="@color/colorRed"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/checkin_remain"
+            android:text="剩余15小时25分钟"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:background="@color/fullTransparent"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/fullTransparent"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/checkbox_type"
+                android:text="111°53′42″E"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/checkbox_time"
+                android:text="23°53′42″N"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/checkbox_remain"
+                android:text="广东省佛山市南海区……"
+
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </FrameLayout>
+    </LinearLayout>
+    <View
+        android:background="@color/mDividerHigh"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

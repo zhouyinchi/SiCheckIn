@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#ffccddff</color>
+    <color name="grey">#58616d</color>
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <!-- 纯色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="alpha_white">#9ED89F</color>
+    <color name="red">#E51A18</color>
+    <color name="transparent">#0000</color>
+    <color name="colorPrimary_dark">#00695c</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="textColorPrimary_dark">#404040</color>
+
+    <color name="windowBackground">#efefef</color>
+    <!-- 背景色 -->
+    <color name="backcolor_white">#FFFFFF</color>
+    <color name="backcolor">#EDEDED</color>
+    <color name="backcolor_light">#f6f6f6</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="gray_background">#ffececec</color>
+    <color name="title_bg">#00a33e</color>
+    <color name="guide_bg1">#f2eee5</color>
+    <color name="guide_bg2">#6d71df</color>
+    <color name="transparent_bg">#00000000</color>
+    <color name="calendar_transparent_bg">#a0000000</color>
+    <color name="subtransparent">#90000000</color>
+    <color name="roll_view_bg">#88000000</color>
+    <color name="ebebeb_bg">#ebebeb</color>
+    <color name="nearby_friends_tag">#a9cd24</color>
+    <color name="tab_text_normal">#333333</color>
+    <color name="theme_color">#f10100</color>
+
+    <color name="bg_color">#EDEDED</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="header">#58567D</color>
+    <color name="grgray">#686868</color>
+    <color name="title_color">#565a58</color>
+    <!--刷新的颜色-->
+    <color name="background">#F7F4F0</color>
+    <color name="half_transparent">#4f000000</color>
+    <color name="gray_font_dark">#646464</color>
+    <color name="gray_light">#f2f2f2</color>
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="gray">#8c8c8c</color>
+    <color name="gray_deep">#5c5c5c</color>
+    <color name="alpha_gray">#CC646464</color>
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="common_bg">#FAFAFA</color>
+    <color name="shadow">#AAEBEBEB</color>
+    <color name="divider">#E5E5E5</color>
+    <color name="content_bg">#F3F3F3</color>
+
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">
+        @color/vpi__bright_foreground_holo_light
+    </color>
+    <color name="vpi__bright_foreground_inverse_holo_light">
+        @color/vpi__bright_foreground_holo_dark
+    </color>
+    <!--FragmentTabHost所需要的动画效果-->
+    <color name="colorActive">#00BCD4</color>
+    <color name="colorInactive">#d2d0d1</color>
+    <color name="colorFront">#4db6ac</color>
+    <color name="colorBehind">#84ffff</color>
+
+</resources>

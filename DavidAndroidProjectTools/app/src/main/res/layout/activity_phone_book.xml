@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/addAddressList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0080FF"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="批量添加姓名和手机号到通讯录"
+
+
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/clearAddressList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#0080FF"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="从通讯录批量删除添加的手机号和姓名"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+
+
+
+        <Button
+            android:id="@+id/addAddressPhoneList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0080FF"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:text="批量添加手机号到通讯录(无名称)"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/clearAddressPhoneList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#0080FF"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="从通讯录批量删除无名称的的手机号"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/catAddressList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#0080FF"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="查看通讯录"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
