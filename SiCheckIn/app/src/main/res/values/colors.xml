@@ -13,4 +13,5 @@
     <color name="colorText">#696969</color>
     <color name="colorRed">#D44D44</color>
     <color name="fullTransparent">#00000000</color>
+    <color name="colorBackground">#F3F3F3</color>
 </resources>

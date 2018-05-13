@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SiCheckIn.iml" filepath="$PROJECT_DIR$/SiCheckIn.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\AndroidAPP\SiCheckIn\SiCheckIn\SiCheckIn\app\app.iml" filepath="E:\AndroidAPP\SiCheckIn\SiCheckIn\SiCheckIn\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/httptest/httptest.iml" filepath="$PROJECT_DIR$/httptest/httptest.iml" />
+      <module fileurl="file://E:\AndroidAPP\SiCheckIn\SiCheckIn\SiCheckIn\httptest\httptest.iml" filepath="E:\AndroidAPP\SiCheckIn\SiCheckIn\SiCheckIn\httptest\httptest.iml" />
     </modules>
   </component>
 </project>

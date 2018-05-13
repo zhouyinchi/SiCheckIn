@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">shundechubei</string>
-    <string name="title_project">Project</string>
-    <string name="title_finance">Finance</string>
-    <string name="title_engineering">Engineering</string>
-    <string name="title_personal">Personal</string>
-
-</resources>
